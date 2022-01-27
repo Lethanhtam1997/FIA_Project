@@ -1,0 +1,151 @@
+:root {
+    --primary-color:#434657;
+}
+:root {
+    --title-color:#1B1D29;
+}
+
+
+
+
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Common CSS */
+.row {
+    width: 100%;
+    display: flex;
+
+}
+#main {
+    height: 3107px;
+    width: 1440px;
+    background-color: #fff;
+
+}
+.font-caption2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+.font-body2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+/* Header CSS */
+#header {
+    height: 112px;
+    background-color: #fff;
+}
+.header-first-part {
+    width: 416px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin: 24px auto 24px 104px;
+}
+.header-logo {
+    
+
+}
+.header-title-body {
+    margin: 0 10px;
+
+}
+.header-title-organization {
+
+}
+.header-title-webname {
+    color: var(--title-color);
+}
+.header-second-part {
+    display: flex;
+    width: 560px;
+    height: 40px;
+    margin-right: 32px;
+    margin-top: 36px;
+    
+}
+.header-search-icon {
+    width: 9.67px;
+    height: 9.67px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.header-search-text {
+    border-style: none;
+    height: 20px;
+    width: 348px;
+    border: 4px;
+    margin-top: 10px;
+}
+
+.header-search-box {
+    border: 1px solid #E4E5F0;
+    border-radius: 4px;
+}
+.header-language {
+    width: 136px;
+    height: 40px;
+    margin-left: 24px;
+    position: relative;
+}
+.header-country-icon {
+    margin-top: 8px;
+}
+.header-language-text {
+    width: 69px;
+    height: 20px;
+    color: var(--primary-color);
+    align-items: center;
+}
+
+#navbar {
+    height: 64px;
+    background-color: #7B1C21;
+    display: flex;
+    
+
+}
+#navbar li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 64px;
+    padding: 0 22px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+#navbar .navbar-home-img {
+    color: #fff;
+    width: 30px;
+    height: 28px;
+}
+#navbar li {
+    list-style: none;
+}
+#navbar .navbar-arrow-down {
+    width: 9.33px;
+    height: 4.67px;
+
+}
+#content {
+
+}
+#footer {
+
+}
