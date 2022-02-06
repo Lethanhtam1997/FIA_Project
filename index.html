@@ -11,7 +11,7 @@
 <body>
     <div id="main">
         <div id="header">
-            <div class="row">
+            <div class="header-content">
                 <div class="header-first-part">
                     <div class="header-logo">
                         <img src="./assets/img/header-img.jpg" alt="Header logo">
@@ -21,7 +21,9 @@
                             <span>BỘ KẾ HOẠCH ĐẦU TƯ <br></span>
                             <span>CỤC ĐẦU TƯ NƯỚC NGOÀI</span>
                         </div>
-                        <div class="font-body2 header-title-webname">TRANG THÔNG TIN ĐIỆN TỬ ĐẦU TƯ NƯỚC NGOÀI</div>
+                        <div class="font-body2 header-title-webname">
+                            <span>TRANG THÔNG TIN ĐIỆN TỬ ĐẦU TƯ NƯỚC NGOÀI</span>
+                        </div>
                     </div>
                 </div>
                 <div class="header-second-part">
@@ -32,7 +34,7 @@
                     
                     <div class="header-language">
                         <img src="./assets/img/Japan-icon.png" alt="" class="header-country-icon">
-                        <span class="font-body2 header-language-text">Tiếng Việt</span>
+                        <span class=" header-language-text">Tiếng Việt</span>
                         <i class="ti-angle-down header-expand-icon"></i>
                     </div>
 
@@ -42,9 +44,15 @@
            
         </div>
 
-        <div id="navbar">
-            <ul id="navbar">
-                <li class="ti-home navbar-home-img"><a href=""></a></li>
+        <div id="navbar-container">
+            <ul class="navbar-list">
+                <li class="navbar-home-img">
+                    <a class="navbar-home-collection" href="/">
+                        <img class="collection-img-first" src="./assets/img/home-1.png" alt="">
+                        <img class="collection-img-second" src="./assets/img/home-2.png" alt="">
+                        <img class="collection-img-third" src="./assets/img/home-3.png" alt="">
+                    </a>
+                </li>
                 <li>
                     <a href="">
                         About FIA
@@ -54,31 +62,31 @@
                 <li>
                     <a href="">
                         Why Vietnam
-                        <i class="ti-angle-down"></i>
+                        <i class="navbar-arrow-down ti-angle-down"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         News
-                        <i class="ti-angle-down"></i>
+                        <i class="navbar-arrow-down ti-angle-down"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         Investment Environment
-                        <i class="ti-angle-down"></i>
+                        <i class="navbar-arrow-down ti-angle-down"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         Legal Facts
-                        <i class="ti-angle-down"></i>
+                        <i class="navbar-arrow-down ti-angle-down"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         Q & A
-                        <i class="ti-angle-down"></i>
+                        <i class="navbar-arrow-down ti-angle-down"></i>
                     </a>
                 </li>
                 
@@ -88,7 +96,241 @@
 
 
         <div id="content">
+            <div class="grid frame-973">
+                <div class="row">
+                    <div class="col-8">
+                        <div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="introduce" style="background-image: url(./assets/img/bulding-img.png);">
+                                        <div class="introduce-content">
+                                            <h2 class="introduce-heading">Việt Nam và Ấn Độ hướng tới trở thành đối tác kinh tế lớn hơn</h2>
+                                            <div class="introduce-view-content">
+                                                <i class="ti-eye"></i>
+                                                <span class="introduce-view-number">
+                                                    1500
+                                                </span>
+                                                <span class="view-separate-text">|</span>
+                                                <i class="ti-time"></i>
+                                                <span class="introduce-view-time">
+                                                    2021/6/23 16:09
+                                                </span>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                    </div>    
+                                                               
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame-964 row-child">
+                                <div class="col-6">
+                                    <img src="./assets/img/clock-img.png" alt="">
+                                    <div class="news-expand">
+                                        <span class="label-1">KINH DOANH</span>
+                                        <p class="label-heading">Cơ hội đón sóng bất động sản trước lộ trình Khánh Hòa lên đô thị trung ương</p>
+                                        <p class="label-content">Khu vực Bắc Nha Trang đóng vai trò đặc biệt quan trọng trong quy hoạch mở rộng thành phố Nha Trang. Đây là cực tăng trưởng mạnh và được dự đoán sẽ tiếp tục là tâm điểm của thị trường bất động sản Nha Trang thời gian tới, trong giai đoạn Khánh Hoà định hướng lên TP trực thuộc trung.. </p>
+        
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./assets/img/people-img.png" alt="">
+                                    <div class="news-expand">
+                                        <h4 class="label-2">ĐẦU TƯ</h4>
+                                        <h3 class="label-heading">Vốn đầu tư trực tiếp nước ngoài vào các khu kinh tế và khu công nghiệp dự kiến ​​đạt 8,7 tỷ USD từ tháng 1 đến tháng 6 năm 2019 </h3>
+                                        <p class="label-content">Theo báo cáo của Bộ Kế hoạch và Đầu tư và Ban Quản lý Khu kinh tế, từ tháng 1 đến tháng 6 năm 2019 có 340 dự án đầu tư nước ngoài đầu tư vào các khu kinh tế, khu công nghiệp, nâng tổng vốn đăng ký cấp mới lên 8,7 tỷ USD ...   </p>
+                                    </div>
+                                </div>
 
+                        </div>
+                    </div>
+                    <div class="col-4 news-container">
+                        <div class="news">
+                            <h3 class="news-heading">Tin tức</h3>
+                            <ul class="news-list">
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                                <li class="news-item">
+                                    <div class="news-text">
+                                        <span class="news-text-title">Hoà Bình: Tích cực thúc đẩy ngoại giao kinh tế, thu hút đầu tư</span>
+                                        <span class="news-time">2021/6/23 16:09</span>
+                                    </div>
+                                    <img class="news-item-img" src="./assets/img/news-img1.png" alt="" class="">
+                                    
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="separate-border"></div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="event-container">
+                            <h3 class="event-heading">Sự Kiện</h3>
+                            <a href="" class="event-link">
+                                Hiển thị tất cả
+                                <div class="event-expand-icon">
+                                    <i class="ti-angle-right"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="event-detail row-child">
+                            <div class="col-6">
+                                <img src="./assets/img/event-1.png" alt="">
+                                <div class="event-text-container">
+                                    <h4 class="event-title">Kinh Doanh</h4>
+                                    <h5 class="event-subtitle">Khởi nghiệp tại Việt Nam</h5>
+                                    <div class="event-info">
+                                        <i class="ti-time"></i>
+                                        <span class="event-time">Thứ Ba, 23 Tháng Ba, 2021 | 11:00 SÁNG</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <ti class="ti-location-pin"></ti>
+                                        <span class="event-address">36 Hoang Cau Street, Dong Da District, Hanoi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img src="./assets/img/event-2.png" alt="">
+                                <div class="event-text-container">
+                                    <h4 class="event-title">Kinh Doanh</h4>
+                                    <h5 class="event-subtitle">Khởi nghiệp tại Việt Nam</h5>
+                                    <div class="event-info">
+                                        <i class="ti-time"></i>
+                                        <span class="event-time">Thứ Ba, 23 Tháng Ba, 2021 | 11:00 SÁNG</span>
+                                    </div>
+                                    <div class="event-info">
+                                        <ti class="ti-location-pin"></ti>
+                                        <span class="event-address">36 Hoang Cau Street, Dong Da District, Hanoi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="guide-content">
+                            <h3 class="guide-heading">Investment Environment</h3>
+                            <ul class="guide-list">
+                                <li class="guide-list-item">
+                                    Legal & Fact 
+                                    <i class="ti-angle-right"></i>
+
+                                </li>
+                                <div class="guide-list-item-separate"></div>
+                                <li class="guide-list-item">
+                                    Guidebook 63 provinces
+                                    <i class="ti-angle-right"></i>
+
+                                </li>
+                                <div class="guide-list-item-separate"></div>
+                                <li class="guide-list-item">
+                                    How to invest into VietNam/investment guidebook 
+                                    <i class="ti-angle-right"></i>
+
+                                </li>
+                                <div class="guide-list-item-separate"></div>
+                                <li class="guide-list-item">
+                                    Business matching 
+                                    <i class="ti-angle-right"></i>
+
+                                </li>
+                                <div class="guide-list-item-separate"></div>
+                                <li class="guide-list-item">
+                                    Help desk 
+                                    <i class="ti-angle-right"></i>
+
+                                </li>
+                                <div class="guide-list-item-separate"></div>
+                                <li class="guide-list-item">
+                                    Emergency Notice
+                                    <i class="ti-angle-right"></i>
+
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="separate-border"></div>
+
+                <div class="chart-heading">
+                    Tình hình đầu tư Nhật Bản vào Việt Nam
+                </div>
+                <div class="row-chart chart-container">
+                    
+                    <div class="col-chart-6">
+                        <img src="./assets/img/chart1.png" alt="">
+                        <div class="char-description">
+                            <h5 class="char-name">Tình hình đầu tư FDI Nhật Bản trong năm 2021</h5>
+                            <div class="chart-time">
+                                <i class="ti-time"></i>
+                                <span >2021/6/23 16:09</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-chart-6">
+                        <img src="./assets/img/chart2.png" alt="">
+                        <div class="char-description">
+                            <h5 class="char-name">Tình hình đầu tư FDI lũy kế đến nay</h5>
+                            <div class="chart-time">
+                                <i class="ti-time"></i>
+                                <span >2021/6/23 16:09</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -96,13 +338,6 @@
         <div id="footer">
 
         </div>
-
-
-
-
-
-
-
 
 
 
