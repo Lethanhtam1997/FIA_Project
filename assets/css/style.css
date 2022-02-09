@@ -9,11 +9,6 @@
     --main-color:#7B1C21;
 }
 
-
-
-
-
-
 /* Reset CSS */
 * {
     padding: 0;
@@ -32,7 +27,6 @@ html {
 .grid {
     width: 1232px;
     max-width: 100%;
-    /* margin-left: 104px; */
     margin: 0 auto;
 }
 .row {
@@ -67,14 +61,6 @@ html {
     padding-right: 20px;
     width: 32.7%;
 }
-
-/* #main {
-    width: 1440px;
-    background-color: #fff;
-    
-    
-
-} */
 .font-caption2 {
     font-weight: 700;
     font-size: 1.2rem;
@@ -110,7 +96,6 @@ html {
     width: 382px;
     height: 58px;
     margin-left: 10px;
-
 }
 
 .header-title-webname {
@@ -118,12 +103,9 @@ html {
 }
 .header-second-part {
     display: flex;
-    /* align-items: center; */
     width: 560px;
     height: 40px;
-    /* margin-right: -100px; */
     margin-top: 36px;
-    
 }
 .header-search-icon {
     width: 9.67px;
@@ -131,7 +113,6 @@ html {
     margin-top: 30px;
     margin-left: 10px;
 }
-
 .header-search-text {
     border-style: none;
     height: 20px;
@@ -139,7 +120,6 @@ html {
     border: 4px;
     margin-top: 10px;
 }
-
 .header-search-box {
     border: 1px solid #E4E5F0;
     border-radius: 4px;
@@ -151,8 +131,6 @@ html {
     position: relative;
     display: flex;
     align-items: center;
-}
-.header-country-icon {
 }
 .header-language-text {
     font-family: Roboto;
@@ -173,13 +151,10 @@ html {
 #navbar-container {
     height: 64px;
     background-color: #7B1C21;
-    
-
 }
 .navbar-list {
     display: flex;
     height: 100%;
-
 }
 .navbar-list li a {
     color: #fff;
@@ -188,14 +163,12 @@ html {
     padding: 0 22px;
     font-weight: 500;
     font-size: 15px;
-    
 }
  .navbar-home-img {
     width: 64px;
     height: 100%;
     position: relative;
     border-bottom: 4px solid var(--white-color);
-
 }
 
 .collection-img-first {
@@ -220,21 +193,12 @@ html {
     position: absolute;
     top: 38px;
     left: 29px;
-
-
     }
 .navbar-list li {
     list-style: none;
 }
 .navbar-arrow-down {
-    /* width: 9.33px;
-    height: 4.67px; */
     font-size: 0.933rem;
-
-}
-#content {
-
-
 }
 /* CSS INTRODUCE */
 .introduce {
@@ -332,9 +296,6 @@ html {
     margin-top: 8px;
 }
 /* CSS NEWS */
-.news-container {
-    
-}
 .news {
     padding: 16px;
     border: 1px solid #E4E5F0;
@@ -612,7 +573,6 @@ height: 32px;
     font-size: 1.2rem;
 }
 .ref-info-detail {
-    /* width: 1232px; */
     height: 160px;
     margin-top: 16px;
 
@@ -742,14 +702,6 @@ height: 32px;
     text-align: right;
     
 }
-#footer {
-
-}
-/* .header-content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-} */
 .footer-first-part {
     width: 456px;
     height: 64px;
@@ -757,27 +709,20 @@ height: 32px;
     align-items: center;
     margin: 24px auto 24px 0;
 }
-
 .footer-title-body {
     width: 382px;
     height: 58px;
     margin-left: 10px;
-
 }
-
 .footer-title-webname {
     color: var(--title-color);
 }
 .footer-content {
     display: flex;
     height: 80px;
-    /* align-items: center;
-    justify-content: space-between; */
+    
 }
 .footer-sencond-part {
-    /* width: 121px;
-    height: 48px;
-    padding-top: 34px; */
     display: flex;
     flex-direction: column;
 }
